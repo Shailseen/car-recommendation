@@ -1,0 +1,86 @@
+.Apps {
+  font-family: sans-serif;
+  text-align: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  /* margin: 0 auto; */
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  /* max-width: 600px; */
+  margin: 0 auto;
+}
+main {
+  max-width: 700px;
+  margin: auto;
+}
+.topsItems {
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.topsItems p {
+  /* padding: 1rem; */
+  margin-top: 2rem;
+}
+.first {
+  color: #1cdc96da;
+  font-size: 25px;
+}
+.car {
+  color: #1cdc96da;
+  font-size: 3rem;
+  /* margin-bottom: 5rem; */
+}
+
+ul li {
+  list-style-type: none;
+}
+.buttons {
+  /* display: block; */
+  margin-right: 2rem;
+  width: 90px;
+  height: 45px;
+  cursor: pointer;
+  border-color: #1cdc96da;
+  border-width: 3px;
+}
+.listArrangement {
+  float: center;
+  margin: 0 auto;
+  width: 270px;
+  /* height: 70%; */
+  padding: 1rem;
+  /* padding-left: rem; */
+}
+div small {
+  margin: 0 auto;
+  text-align: center;
+}
+.listArrangement ul {
+  list-style-type: none;
+  /* margin: 0; */
+  /* padding: 0; */
+}
+
+.listArrangement li {
+  display: block;
+  width: 100%;
+  margin: 1.5rem auto;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+  background-color: #1cdc96da;
+  border: 1px solid rgb(red, green, blue);
+  border-radius: 5px;
+  font-size: medium;
+}
+
+.listArrangement li span {
+  font-size: small;
+  font-weight: lighter;
+  margin-left: 0.5rem;
+}
